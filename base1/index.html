@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- sections of styles -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="background-section">
+        <section class="section-body">
+            <form class="formulario-login" id="inputFormulario"> 
+
+                <h2 class="formulario-login__titulo">
+                    ¡Hola! <br> <span>Ingresa tus datos</span>
+                </h2>
+
+                <div class="formulario-login__caja-nombres">
+                    
+                    <label for="primerNombre">
+                        Primer nombre
+                        <input 
+                        type="text"  
+                        class="input-nombres" 
+                        name="primerNombre" 
+                        placeholder="Juan"
+                        id="inputNombre1">
+                    </label>
+                    
+                    <label for="segundoNombre">
+                        Segundo nombre
+                     <input 
+                     type="text" 
+                     class="input-nombres" 
+                     name="segundoNombre"  
+                     placeholder="Pablo"
+                     id="inputNombre2">
+                     </label>
+                     
+                </div>
+
+                <label for="apellidos">
+                    Apellidos
+                    <input 
+                    type="text"
+                    name="apellidos" 
+                    placeholder="Monroy Pineda"
+                    id="inputApellidos">
+                </label>
+
+                <label for="correo">
+                    Correo
+                    <input 
+                    type="text"
+                    name="correo" 
+                    placeholder="Jpmonroy26@gmail.com"
+                    id="inputCorreo">
+                </label>
+
+                <label for="contraseña">
+                    Contraseña
+                    <input 
+                    type="text"
+                    name="contraseña" 
+                    placeholder="Jp12345678"
+                    id="inputContrasenna">
+                </label>
+
+                <label for="confirmarContraseña">
+                    Confirmar Contraseña
+                    <input 
+                    type="text"
+                    name="confirmarContraseña" 
+                    placeholder="Jp12345678"
+                    id="inputConfirmarContrasenna">
+                </label>
+
+                <button >¡Listo!</button>
+                <div class="formulario-login__CajaRespuesta">
+                    <label for="" class="inputRespuesta" id="inputRespuesta"></label>
+                </div>
+                <div class="formulario-login__CajaRespuesta2">
+                    <label for="" class="inputRespuesta2" id="inputRespuesta2"></label>
+                </div>
+            </form>
+            
+        </section>
+    </div>
+    <script src="js/js.js"></script>
+
+</body>
+</html>
